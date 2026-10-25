@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_big_cannons"
+	group: "3198B80A991A3704"
+	icon: "createbigcannons:cannon_mount"
+	id: "67A5D8DF4750DAAB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create Big Cannons"
+}

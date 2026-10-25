@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_enough_guns"
+	group: "4650CB73BD561F5E"
+	icon: {
+		Count: 1b
+		id: "jeg:revolver"
+		tag: {
+			AmmoCount: 8
+			Damage: 0
+		}
+	}
+	id: "0B53FDEECCC981B5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Just Enough Guns"
+}

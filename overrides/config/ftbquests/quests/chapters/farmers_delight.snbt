@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "16E576EB54DC450E"
+	icon: "farmersdelight:stove"
+	id: "5E907001176F81AD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Farmer's Delight"
+}

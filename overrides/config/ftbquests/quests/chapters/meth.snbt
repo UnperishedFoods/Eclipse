@@ -1,0 +1,464 @@
+{
+	autofocus_id: "51C2997A88CBEE43"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "meth"
+	group: "7C418467A5068D76"
+	icon: "createbb:blue_stuff"
+	id: "40B49A26636DF5BA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Obtain from farmer villagers"]
+			id: "51C2997A88CBEE43"
+			rewards: [{
+				count: 7
+				id: "299C78C1B95013C0"
+				item: "createbb:ephedra"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "The first step to making meth"
+			tasks: [{
+				id: "10E2073F63838529"
+				item: "createbb:ephedra"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33995B40BE0D4626"]
+			description: ["Press your white stuff tray and recieve your sellable material!"]
+			id: "49A722EDD85C5D5A"
+			size: 2.0d
+			subtitle: "Ready for selling!"
+			tasks: [{
+				id: "349F1E2361E49394"
+				item: "createbb:white_stuff"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51C2997A88CBEE43"]
+			dependency_requirement: "one_started"
+			description: ["This material in particular resembles meth. It is not meth."]
+			id: "3EBFFBB50D2FE3A1"
+			progression_mode: "flexible"
+			require_sequential_tasks: true
+			subtitle: "Crush ephedra"
+			tasks: [{
+				id: "2DB9F803DC70208C"
+				item: "createbb:pseudophedrine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "23D3CC6E907D6A0F"
+			rewards: [{
+				count: 7
+				id: "5E8B042009D27A92"
+				item: "quark:limestone"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Makes phosphorus"
+			tasks: [{
+				id: "329CEF7B07F4D7D4"
+				item: "quark:limestone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23D3CC6E907D6A0F"]
+			description: ["Crush limestone using create crushing wheels!"]
+			id: "745E65975A5EC21A"
+			subtitle: "Crushed phosphorus"
+			tasks: [{
+				id: "7EA3B86DFD4F1C6C"
+				item: "createbb:white_phosphorus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["745E65975A5EC21A"]
+			id: "5CAE23571388C513"
+			subtitle: "Heat phosphorus"
+			tasks: [{
+				id: "61F0CF5D67702C9B"
+				item: "createbb:red_phosphorus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "679E13A9869CE2DF"
+			size: 1.5d
+			subtitle: "It's dream"
+			tasks: [{
+				id: "209ED3907DB71EFA"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["679E13A9869CE2DF"]
+			description: ["Crafted from aluminosilicate bits, obtained from a small chance of dropping from crushing clay."]
+			id: "1DBE9A50B37516F6"
+			subtitle: "Big words"
+			tasks: [{
+				id: "31232C15753A96B3"
+				item: "createbb:aluminosilicate_catalyst"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7434CB58CF980C23"]
+			id: "1659F8C21B831ED7"
+			subtitle: "iodine on deez nuts"
+			tasks: [{
+				id: "12461FB2C9DC6B09"
+				item: "createbb:iodine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DBE9A50B37516F6"]
+			description: ["Mix your aluminosilicate catalyst with water."]
+			id: "7434CB58CF980C23"
+			subtitle: "Vaguely salty."
+			tasks: [{
+				id: "37D753A6461B09FE"
+				item: "createbb:brine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5CAE23571388C513"
+				"1659F8C21B831ED7"
+				"3EBFFBB50D2FE3A1"
+			]
+			description: ["Mix pseudophedrine, iodine, and red phosphorus over a blaze burner with 200mb of water. Then dispense the liquid white stuff onto a tray, crafted from the finest iron ingots."]
+			id: "33995B40BE0D4626"
+			subtitle: "You can almost taste it."
+			tasks: [{
+				id: "27AF1471CC3DBB4E"
+				item: "createbb:white_stuff_tray"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "11C0154F3B92CE42"
+			subtitle: "Yum!"
+			tasks: [{
+				id: "6D556BB67706143E"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "Apple"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11C0154F3B92CE42"]
+			description: ["Obtain from crushing apples with crushing wheels."]
+			id: "7064B81B555C4A5D"
+			subtitle: "Very lethal"
+			tasks: [{
+				id: "73CF5600946B1465"
+				item: "createbb:cyanide"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7064B81B555C4A5D"]
+			description: ["Combine cyanide with water in a mixer."]
+			id: "220546EAEA066C1F"
+			subtitle: "More big words"
+			tasks: [{
+				id: "725380DCA1AF1041"
+				item: "createbb:phenylacetic_acid_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			description: ["Made from crushing copper. Obviously."]
+			id: "0F2EEE08890167A5"
+			subtitle: "Exactly how it sounds."
+			tasks: [{
+				id: "3E771146C0888B9D"
+				item: "createbb:crushed_copper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			description: ["Again, simply crush zinc using crushing wheels."]
+			id: "1C4D5F51905AE9A3"
+			subtitle: "Who would have thought"
+			tasks: [{
+				id: "19B63D3DBBA8E786"
+				item: "createbb:crushed_zinc"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0F2EEE08890167A5"
+				"1C4D5F51905AE9A3"
+			]
+			description: ["Doesn't disappear on use!"]
+			id: "35DCFD0E3298E4E4"
+			subtitle: "Catalyzing since 2001."
+			tasks: [{
+				id: "2E7AD5AA6DF99C7C"
+				item: "createbb:copper_zinc_catalyst"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35DCFD0E3298E4E4"]
+			id: "416BB42D7136398F"
+			tasks: [{
+				id: "234147671C88744D"
+				item: "createbb:oxygen_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"416BB42D7136398F"
+				"3045AB32877B2413"
+			]
+			id: "48B39DA429D3567D"
+			tasks: [{
+				id: "4C20186471F46F79"
+				item: "createbb:acetic_anhydride_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			id: "3045AB32877B2413"
+			tasks: [{
+				id: "3F837FD1F06FD3EB"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"220546EAEA066C1F"
+				"48B39DA429D3567D"
+			]
+			id: "1490B317CA685A3D"
+			tasks: [{
+				id: "1FD107B88DE7E7B4"
+				item: "createbb:phenylacetone_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5C53534CA8A9B112"
+				"00C122AC136B35CE"
+				"470DC4CBBB4C7F32"
+			]
+			id: "0C22719F9704E28E"
+			tasks: [{
+				id: "26FCD0F656EA9A85"
+				item: "createbb:methylamine_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4B52CD4848D21381"]
+			id: "5C53534CA8A9B112"
+			tasks: [{
+				id: "6CADF7042E9DD873"
+				item: "createbb:ammonia_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C45FE3983DC3563"]
+			id: "4B52CD4848D21381"
+			tasks: [{
+				id: "72B32C29CA5E6F2F"
+				item: "createbb:nitrogen"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:potato"
+			id: "1C45FE3983DC3563"
+			tasks: [{
+				id: "1A5331AEBA4F7C1A"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"79608FF5356AF815"
+				"615A6F80A8494194"
+				"02FBB8BE13CCE540"
+			]
+			id: "00C122AC136B35CE"
+			tasks: [{
+				id: "166A9D24AB174BE2"
+				item: "createbb:methanol_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			id: "79608FF5356AF815"
+			tasks: [{
+				id: "4C0C9D5DABAAB03E"
+				item: "createbb:hydrogen_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			id: "02FBB8BE13CCE540"
+			tasks: [{
+				id: "0570C701AFC0182F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"03F3910EA70A5BFF"
+				"1E440D7BF157CEA0"
+			]
+			id: "615A6F80A8494194"
+			tasks: [{
+				id: "610DFFDBC05AE027"
+				item: "createbb:copper_zinc_catalyst"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			id: "03F3910EA70A5BFF"
+			tasks: [{
+				id: "0A37FD4551F33440"
+				item: "createbb:crushed_copper"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			id: "1E440D7BF157CEA0"
+			tasks: [{
+				id: "723126A69619EA8F"
+				item: "createbb:crushed_zinc"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			id: "470DC4CBBB4C7F32"
+			tasks: [{
+				id: "6AFC6C6E87F0264A"
+				item: "createbb:aluminosilicate_catalyst"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1490B317CA685A3D"
+				"0C22719F9704E28E"
+			]
+			id: "0905748F154827FF"
+			tasks: [{
+				id: "21FB1F6227905C61"
+				item: "createbb:liquid_blue_stuff_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0905748F154827FF"]
+			id: "783986037B0CDA72"
+			tasks: [{
+				id: "128EE53B9F3853DB"
+				item: "createbb:blue_stuff_tray"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["783986037B0CDA72"]
+			id: "0F7EC3BB8D61408F"
+			size: 2.0d
+			tasks: [{
+				id: "0766E5930F26DB73"
+				item: "createbb:blue_stuff"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+	]
+	title: "Stuff"
+}

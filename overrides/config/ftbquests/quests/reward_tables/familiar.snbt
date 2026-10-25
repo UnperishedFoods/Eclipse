@@ -1,0 +1,14 @@
+{
+	id: "6A143D5574FA397E"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "ars_nouveau:familiar_amethyst_golem" }
+		{ item: "ars_nouveau:familiar_starbuncle" }
+		{ item: "ars_nouveau:familiar_wixie" }
+		{ item: "ars_nouveau:familiar_whirlisprig" }
+		{ item: "ars_nouveau:familiar_drygmy" }
+		{ item: "ars_nouveau:familiar_bookwyrm" }
+	]
+	title: "Familiar"
+}

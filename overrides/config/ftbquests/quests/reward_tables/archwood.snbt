@@ -1,0 +1,12 @@
+{
+	id: "50B49E8418458773"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "ars_nouveau:blue_archwood_log" }
+		{ count: 3, item: "ars_nouveau:red_archwood_log" }
+		{ count: 3, item: "ars_nouveau:purple_archwood_log" }
+		{ count: 3, item: "ars_nouveau:green_archwood_log" }
+	]
+	title: "Archwood"
+}

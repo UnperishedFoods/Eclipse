@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "4650CB73BD561F5E"
+	icon: "pneumaticcraft:pressure_tube"
+	id: "0F24921B999EC892"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "PneumaticCraft"
+}

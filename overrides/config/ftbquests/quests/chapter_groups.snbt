@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "7A6F9152B82728B5", title: "Magic" }
+		{ id: "4650CB73BD561F5E", title: "Technology" }
+		{ id: "3198B80A991A3704", title: "Create" }
+		{ id: "7C418467A5068D76", title: "Extras" }
+		{ id: "16E576EB54DC450E", title: "Edibles" }
+	]
+}

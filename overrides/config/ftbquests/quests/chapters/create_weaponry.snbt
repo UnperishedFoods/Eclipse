@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_weaponry"
+	group: "3198B80A991A3704"
+	icon: "create_wt:blank_pattern"
+	id: "18B7962403EDF94B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create Weaponry"
+}

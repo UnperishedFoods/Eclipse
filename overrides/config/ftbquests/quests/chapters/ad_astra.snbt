@@ -1,0 +1,729 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "4650CB73BD561F5E"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "7E2ADF1C1CDED0EF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3221BB6CBAA0216A"
+			tasks: [{
+				id: "7BBFE7227FCAD572"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56CEC7B853FC58B0"]
+			id: "3E6887484EF87029"
+			subtitle: "Used to make steel"
+			tasks: [{
+				id: "0B03B726867B3D88"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3221BB6CBAA0216A"]
+			id: "56CEC7B853FC58B0"
+			subtitle: "Used to make iron plates"
+			tasks: [{
+				id: "11CF339E5838AC71"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3E6887484EF87029"
+				"6538EE72357D1948"
+			]
+			id: "60BFDADEA134EA89"
+			tasks: [{
+				id: "320F53EB76DB7167"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "0B4FC0C8096E499E"
+			tasks: [{
+				id: "77DE95F70B50C99E"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			title: "MURICA"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B4FC0C8096E499E"]
+			id: "4DEDA4A373421651"
+			tasks: [{
+				id: "22E65276E08E37D6"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DEDA4A373421651"]
+			id: "4DAA0BA4915D20BA"
+			subtitle: "Put 3 in rocket and use 3 to get back"
+			tasks: [{
+				count: 6L
+				id: "117431FE893FA87D"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			title: "Wonder How It Tastes?"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60BFDADEA134EA89"]
+			id: "52723BB53ED2B992"
+			tasks: [{
+				id: "0FF35F5DE4212A2B"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			title: "Need... Air... Please..."
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "6538EE72357D1948"
+			tasks: [{
+				id: "3514920F79C78B55"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "Good Old H2O"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "0BBCB6A0EBECA5E2"
+			tasks: [{
+				id: "34EA1042B17CA7F5"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "More Pointy?"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "5013D09244AC6318"
+			tasks: [{
+				count: 6L
+				id: "1C5714ECD5EB3576"
+				item: { Count: 6b, id: "ad_astra:steel_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "6882E1FF53CF192E"
+			tasks: [{
+				count: 2L
+				id: "0FDEB29A26575D68"
+				item: { Count: 2b, id: "ad_astra:steel_tank" }
+				type: "item"
+			}]
+			title: "Basicly A Bomb"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "17C59299D71FD75B"
+			tasks: [{
+				id: "00E81A31FB59BEFC"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "4D8D9BC0519C1389"
+			tasks: [{
+				count: 4L
+				id: "010D52F534F8CD61"
+				item: { Count: 4b, id: "ad_astra:rocket_fin" }
+				type: "item"
+			}]
+			title: "Strait As A Ruler"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6388149C98672686"
+				"4DAA0BA4915D20BA"
+				"2838A1DEF7D991F5"
+			]
+			id: "0443CE92E79DBAC8"
+			size: 2.0d
+			tasks: [{
+				id: "55D141F980B5D51B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "LAUNCH!"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52723BB53ED2B992"]
+			id: "6388149C98672686"
+			tasks: [
+				{
+					id: "4BE4379846A647CA"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C0B84EE4BFF8564"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DCA4786F37264CA"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E97D0AC7F4EB895"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armstrong"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "2838A1DEF7D991F5"
+			tasks: [{
+				id: "27B7D306BDEC8968"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "Handsy Handsy"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6887484EF87029"]
+			id: "6CE400490FCF3425"
+			subtitle: "Place one to lauch and one to get back"
+			tasks: [{
+				count: 2L
+				id: "50E93D25DC0611B4"
+				item: { Count: 2b, id: "ad_astra:launch_pad" }
+				type: "item"
+			}]
+			title: "Is It Necessary?"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0443CE92E79DBAC8"]
+			id: "61717F0B352D398B"
+			tasks: [{
+				count: 6L
+				id: "629DCEF220DDC491"
+				item: { Count: 6b, id: "ad_astra:desh_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0443CE92E79DBAC8"]
+			id: "4D9D68E0C5348134"
+			tasks: [{
+				id: "75B7BCDFD8733EE5"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0443CE92E79DBAC8"]
+			id: "47661B662DA87C95"
+			tasks: [{
+				count: 2L
+				id: "25C04BE534B28F81"
+				item: { Count: 2b, id: "ad_astra:desh_tank" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0443CE92E79DBAC8"]
+			id: "751679E18C70319E"
+			tasks: [{
+				id: "53E447866B3056CC"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "Pointy Again"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0443CE92E79DBAC8"]
+			id: "1C60FBCF114900F0"
+			tasks: [{
+				count: 4L
+				id: "7A5823F1B6232EBE"
+				item: { Count: 4b, id: "ad_astra:rocket_fin" }
+				type: "item"
+			}]
+			title: "Strait As A Ruler Again"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1C60FBCF114900F0"
+				"751679E18C70319E"
+				"61717F0B352D398B"
+				"4D9D68E0C5348134"
+				"47661B662DA87C95"
+				"392DB02B7078CA4F"
+			]
+			id: "5F729673B1727157"
+			size: 2.0d
+			tasks: [{
+				id: "1AB025330F3C2F07"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "51AACCB664C213AB"
+			optional: true
+			tasks: [{
+				id: "286D7AF99365CC83"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			title: "Brrrrrr"
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51AACCB664C213AB"]
+			id: "49D47573D8C63E76"
+			optional: true
+			tasks: [{
+				id: "5094C94117F4D648"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49D47573D8C63E76"]
+			id: "49003ED50F6D11E7"
+			optional: true
+			tasks: [{
+				id: "0A82EEDBC34142F8"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "Efficency!"
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "1B572BDBDF24AD87"
+			tasks: [{
+				count: 6L
+				id: "457F5585E6960677"
+				item: { Count: 6b, id: "ad_astra:ostrum_block" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "7C840F3D2ADC9819"
+			tasks: [{
+				id: "072FE880DEA0F4E1"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "5BB7DCEC4BDBCAD2"
+			tasks: [{
+				count: 2L
+				id: "29756F5B6BE4AF3A"
+				item: { Count: 2b, id: "ad_astra:ostrum_tank" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "4777CA83BE92AFC3"
+			tasks: [{
+				count: 4L
+				id: "101D04A871EA569F"
+				item: { Count: 4b, id: "ad_astra:rocket_fin" }
+				type: "item"
+			}]
+			title: "Strait As A Ruler Again Again"
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "6D6171B69A3BCA85"
+			tasks: [{
+				id: "276054061CE88107"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "Pointy Again Again"
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5BB7DCEC4BDBCAD2"
+				"4777CA83BE92AFC3"
+				"6D6171B69A3BCA85"
+				"7C840F3D2ADC9819"
+				"1B572BDBDF24AD87"
+				"036576346EFD58AC"
+				"1372BF74016E8084"
+			]
+			id: "1D0009A4D6C2FE5D"
+			size: 2.0d
+			tasks: [{
+				id: "376DC6B654F6C18A"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52723BB53ED2B992"]
+			id: "5D1CE38ED28C69B7"
+			optional: true
+			tasks: [{
+				id: "70CB7D086D89E236"
+				item: {
+					Count: 1b
+					id: "ad_astra:zip_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "036576346EFD58AC"
+			tasks: [
+				{
+					id: "537614A65397E35C"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A6D823773484F22"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D2C234FD2F5FF57"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27AF5243430D701C"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hot Bod"
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "1B8D1F47031D0664"
+			optional: true
+			tasks: [
+				{
+					id: "66605DBFCE5203D9"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71F64E01BB71EFAF"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A5A860CF0477A26"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BFC03359786DC77"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Maverick"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "225B0E967F859D3D"
+			tasks: [{
+				count: 6L
+				id: "5425654D75A1B08F"
+				item: { Count: 6b, id: "ad_astra:calorite_block" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "4FD83A61DAD2FACA"
+			tasks: [{
+				id: "5423D25C802C49F8"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "6AD7753E32F8CEBD"
+			tasks: [{
+				count: 2L
+				id: "6DAF0C9C19B40A91"
+				item: { Count: 2b, id: "ad_astra:calorite_tank" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "2041E0AB80288904"
+			tasks: [{
+				id: "503B06A4DDB53555"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "3FE42E3FC9B97105"
+			tasks: [{
+				count: 4L
+				id: "7F4FBD42DEDF5BFF"
+				item: { Count: 4b, id: "ad_astra:rocket_fin" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4FD83A61DAD2FACA"
+				"225B0E967F859D3D"
+				"2041E0AB80288904"
+				"3FE42E3FC9B97105"
+				"6AD7753E32F8CEBD"
+				"5B7A1AF1367A1ABE"
+			]
+			icon_scale: 1.5d
+			id: "1F78054C79A1C042"
+			size: 3.0d
+			tasks: [{
+				id: "777BCE8386324030"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0443CE92E79DBAC8"]
+			id: "392DB02B7078CA4F"
+			tasks: [{
+				id: "4D0931B64FED6D89"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F729673B1727157"]
+			id: "1372BF74016E8084"
+			tasks: [{
+				id: "4FA83A7D3EC9AD28"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D0009A4D6C2FE5D"]
+			id: "5B7A1AF1367A1ABE"
+			tasks: [{
+				id: "047D4BB1696CF1BB"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.0d
+		}
+	]
+	title: "Ad Astra"
+}

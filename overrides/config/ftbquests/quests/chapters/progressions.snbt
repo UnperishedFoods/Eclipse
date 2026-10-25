@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progressions"
+	group: ""
+	id: "44383F5139F35B56"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["435DFD8566912D54"]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12E0B38F75C365F7"
+			size: 2.0d
+			title: "Magic"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54B904D0F6C0E277"]
+			id: "3D5C689EC9FDEC72"
+			size: 2.0d
+			tasks: [{
+				id: "2F5B20F10F8031C2"
+				item: "thermal:ruby_gear"
+				type: "item"
+			}]
+			title: "Tech"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54B904D0F6C0E277"]
+			id: "42EF84F42EC90465"
+			size: 2.0d
+			tasks: [{
+				id: "48756AE2A23A5EC8"
+				item: {
+					Count: 1b
+					id: "aether:gravitite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Combat"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			description: ["Most of the main resources you will collect in the modpack can be sourced from outer space - go forth and claim your prize!"]
+			id: "54B904D0F6C0E277"
+			subtitle: "Create a tier 1 rocket"
+			tasks: [{
+				id: "72D2C1A297E44C6C"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Initiation"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54B904D0F6C0E277"]
+			id: "435DFD8566912D54"
+			tasks: [{
+				id: "2890047CEEF9B002"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12E0B38F75C365F7"]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "03C13D591C0C1EB7"
+			title: "Ars Nouveau"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["12E0B38F75C365F7"]
+			id: "39A9738D99BEA637"
+			tasks: [{
+				id: "7E9407C7DB9F0D5C"
+				item: "forbidden_arcanus:hephaestus_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Progressions"
+}

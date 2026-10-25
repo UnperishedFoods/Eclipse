@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/ethan/curseforge/minecraft/Instances/Operation Epsilon (1)/saves/New Worl
+}
+

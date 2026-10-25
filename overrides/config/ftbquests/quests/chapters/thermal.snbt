@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal"
+	group: "4650CB73BD561F5E"
+	icon: "thermal:ruby_gear"
+	id: "2FF06AEFB7394420"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thermal"
+}

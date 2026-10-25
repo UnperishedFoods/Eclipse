@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_aircraft"
+	group: "4650CB73BD561F5E"
+	icon: "immersive_aircraft:biplane"
+	id: "446C4F9D7C52289A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Immersive Aircraft"
+}

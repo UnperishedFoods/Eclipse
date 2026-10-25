@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra"
+	group: ""
+	icon: "tetra:basic_workbench"
+	id: "01FFDC62E43E3137"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tetra"
+}

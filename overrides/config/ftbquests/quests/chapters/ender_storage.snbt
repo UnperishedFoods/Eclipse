@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_storage"
+	group: "4650CB73BD561F5E"
+	icon: "enderstorage:ender_chest"
+	id: "5CA6DC764BA5F51A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ender Storage"
+}
