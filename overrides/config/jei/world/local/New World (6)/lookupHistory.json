@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mekanism:mekasuit_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:mekasuit_pants"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:mekasuit_bodyarmor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:mekasuit_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
